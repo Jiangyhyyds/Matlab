@@ -47,7 +47,12 @@ for t = 1 : M
         end
     end
     Pbest(t) = fitness(pg);
-    plotPSO(fitness, N, D, x, t);
+%     % 绘图每次的迭代适应曲线
+%     plot(1 : t, Pbest(1 : t));
+%     xlabel("迭代次数/次");
+%     ylabel("每次迭代后的目标函数值");
+%     set(gca, "FontSize", 22);
+%     pause(0.1);
 end
 %% 打印计算结果
 disp("目标函数取最小值时的自变量");
