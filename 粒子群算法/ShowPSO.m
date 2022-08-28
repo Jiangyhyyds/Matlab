@@ -1,5 +1,5 @@
 function [xm, fv] = ShowPSO(fitness, N, c1, c2, w, M, D)
-% MATLAB实现基本粒子群算法
+% MATLAB实现基本粒子群算法（能够绘制迭代适应曲线）
 % fitness   适应度函数
 % c1    学习因子1
 % c2    学习因子2
