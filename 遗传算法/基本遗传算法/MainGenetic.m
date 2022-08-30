@@ -43,3 +43,7 @@ end
 % hold on;
 % plot(x, y, "r*");
 % hold off;
+%% 打印结果
+[maxValue, maxIndex] = min(y);
+disp(['找的最优解位置为：(', num2str(x1(maxIndex)), ',', num2str(x2(maxIndex)), ')']);
+disp(['对应最优解为：', num2str(maxValue) ]);
